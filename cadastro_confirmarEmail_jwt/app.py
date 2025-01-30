@@ -27,7 +27,7 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'jgadgaambrosio@gmail.com'
-app.config['MAIL_PASSWORD'] = 'qghu hciv bxbe ynkk'  # Substitua por uma senha real ou App Password
+app.config['MAIL_PASSWORD'] = ''  # Substitua por uma senha real ou App Password
 
 mail = Mail(app)
 db = SQLAlchemy(app)
